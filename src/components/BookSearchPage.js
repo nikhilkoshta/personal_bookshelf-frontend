@@ -44,7 +44,7 @@ const BookSearchPage = () => {
         onChange={handleSearch}
         className="w-1/2 p-2 mt-4 mb-4 border rounded-lg"
       />
-      <a href="/books" className="inline-block mt-4 mb-8 p-2 bg-green-600 text-white rounded-lg">
+      <a href="/bookshelf" className="inline-block mt-4 mb-8 p-2 bg-green-600 text-white rounded-lg">
         My Bookshelf
       </a>
       <div className="flex flex-wrap justify-center">
