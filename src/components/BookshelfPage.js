@@ -6,7 +6,7 @@ const BookshelfPage = () => {
   const [bookshelf, setBookshelf] = useState([]);
 
   useEffect(() => {
-    axios.get('https://personal-bookshelf-frontend.vercel.app/books')
+    axios.get('https://personal-bookshelf-backend.vercel.app/books')
       .then(response => {
         setBookshelf(response.data);
       })
